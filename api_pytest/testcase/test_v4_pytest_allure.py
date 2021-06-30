@@ -1,12 +1,12 @@
 #-*-coding:utf-8-*-
 import pytest
 import allure
-from common.read_data import ReadData
-from  common import myRequest
-from  common import config_file
-from common.mylogging import Log
-from common import dispose_response2
-from common.random_generation import RandomGeneration as RG
+from api_pytest.common.read_data import ReadData
+from  api_pytest.common import myRequest
+from  api_pytest.common import config_file
+from api_pytest.common.mylogging import Log
+from api_pytest.common import dispose_response2
+from api_pytest.common.random_generation import RandomGeneration as RG
 
 # 1.获取所有的数据  os.getcwd()返回当前目录,replace替换"testcasa"为"testdata"
 path = config_file.testdata_catalog.replace("\\", "/") + "/dangmei_api.xlsx"

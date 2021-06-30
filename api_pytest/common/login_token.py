@@ -1,6 +1,6 @@
 #-*-coding:utf-8-*-
 import requests
-from common.myRequest import MyRequests
+from api_pytest.common.myRequest import MyRequests
 url = "https://api-admin-dm-stage.bolome.com/login"
 method = "post"
 json = {

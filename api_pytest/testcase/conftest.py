@@ -1,8 +1,5 @@
 #-*-coding:utf-8-*-
 import pytest
-from common.read_data import ReadData
-from common import config_file
-from common import login_token
 #scope="module"相当于setupclass，默认是function"，autouse默认为False，使用autouse=True后，其他的测试脚本会自动用这个文件
 @pytest.fixture(scope="function",autouse=True)
 def fixture_manage():

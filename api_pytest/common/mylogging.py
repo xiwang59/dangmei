@@ -2,7 +2,7 @@
 __author__ = 'zz'
 #encoding=utf-8
 import logging
-from common import  config_file
+from api_pytest.common import  config_file
 
 class Log:
     def __init__(self,log_name,file_name):

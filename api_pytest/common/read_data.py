@@ -1,7 +1,7 @@
 #-*-coding:utf-8-*-
 import self as self
 from openpyxl import load_workbook
-from common import login_token
+from api_pytest.common import login_token
 
 #获取所有的excel测试用例的数据
 class ReadData:
