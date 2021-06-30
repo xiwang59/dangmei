@@ -1,0 +1,13 @@
+#-*-coding:utf-8-*-
+#新建任务
+new_crawlers="//button/span[text()='新建任务']"
+#更多操作
+more_operation="//*[@class='el-dropdown']"
+#停止爬虫
+stop_crawlers="//*[@class='el-table__row']/td[last()]/div/div/ul/li[1]"
+#开启爬虫
+open_crawlews="//body/ul/li[1]"
+#搜索爬虫
+search_crawlers="//*[@class='search-outer']/div/input"
+#搜索button
+search_button="//*[@class='el-input-group__append']"

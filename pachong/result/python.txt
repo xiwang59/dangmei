@@ -1,0 +1,2 @@
+2021-06-10 15:07:28,882-ERROR-logging_class.py-xigua-日志信息:新窗口没有打开
+2021-06-10 15:09:11,315-ERROR-logging_class.py-xigua-日志信息:新窗口没有打开
